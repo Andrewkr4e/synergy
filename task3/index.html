@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Слайдер изображений</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="slider-container">
+    <!-- Кнопка "Назад" -->
+    <button class="slider-button prev" id="prevBtn">Назад</button>
+    
+    <div class="slider">
+        <img class="slider-image" src="1.jpg" alt="Изображение 1">
+        <img class="slider-image" src="2.jpg" alt="Изображение 2">
+        <img class="slider-image" src="3.jpg" alt="Изображение 3">
+        <img class="slider-image" src="4.jpg" alt="Изображение 4">
+        <img class="slider-image" src="5.jpg" alt="Изображение 5">
+    </div>
+
+    <!-- Текущий номер изображения -->
+    <div class="image-number" id="imageNumber">Изображение 1 из 5</div>
+    
+    <!-- Кнопка "Вперед" -->
+    <button class="slider-button next" id="nextBtn">Вперед</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
